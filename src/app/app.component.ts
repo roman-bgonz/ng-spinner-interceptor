@@ -13,7 +13,7 @@ export class AppComponent {
 
   clickRequest(): void {
     this._apiService.getDitto().subscribe();
-    //this._apiService.getCharizard().subscribe();
-    //this._apiService.getDitto().subscribe();
+    this._apiService.getDelayApi().subscribe();
+    // this._apiService.getDitto().subscribe();
   }
 }
